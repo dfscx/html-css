@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <!-- Declares the document type as HTML5 -->
+
 <html lang="en">
-<!-- Opens the HTML document and specifies the language as English -->
+<!-- The root element of the HTML document. The 'lang' attribute specifies the language of the document as English. -->
 
 <head>
-    <!-- The <head> section contains metadata and links for the document -->
+    <!-- The <head> section contains metadata about the document, including links to stylesheets, character encoding, and viewport settings. -->
     <meta charset="UTF-8">
-    <!-- Specifies the character encoding for the document (UTF-8 supports most characters) -->
+    <!-- Defines the character encoding for the document as UTF-8, allowing support for a wide range of characters. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Ensures the page is responsive on all devices by controlling the viewport's width and scale -->
+    <!-- Ensures the page is responsive by setting the viewport width to the device's width and scale to 1. -->
     <title>Document</title>
-    <!-- Sets the title of the document, which appears in the browser tab -->
+    <!-- Specifies the title of the document, which is displayed in the browser tab. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Links an external CSS file named "style.css" to style the HTML document. -->
 </head>
 
 <body>
-    <!-- The <body> section contains the visible content of the web page -->
-    
-    <h1>Here is a title</h1>
-    <!-- Displays a heading (level 1), typically used as the main title of the page -->
+    <!-- The <body> section contains all the content that will be displayed on the web page. -->
 
-    <p>Here is a pharagraph</p>
-    <!-- Displays a paragraph of text -->
+    <header></header>
+    <!-- The <header> element typically contains introductory content, such as logos, navigation menus, or page titles. -->
 
-    <img src="IMG_20241130_235440565_HDR.jpg" alt="Imagem do Desenvolvedor">
-    <!-- Embeds an image on the page; 'src' specifies the image file, and 'alt' provides alternative text for accessibility -->
+    <main>
+        <!-- The <main> element represents the main content of the document, which is unique and central to the page. -->
+        <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
+        <!-- The <h1> tag is used for the main heading of the page, providing the highest level of importance. 
+             The <strong> tag emphasizes text semantically, often displayed in bold. -->
 
-    <ul>
-        <!-- Creates an unordered list -->
-        <li>Característica 1</li>
-        <!-- Defines the first list item -->
-        <li>Característica 2</li>
-        <!-- Defines the second list item -->
-        <li>Característica 3</li>
-        <!-- Defines the third list item -->
-    </ul>
+        <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos
+            negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+        <!-- The <p> tag defines a paragraph of text, used to display information or content. -->
+
+        <a href="https://www.instagram.com/davifsclemente">Instagram</a>
+        <!-- The <a> tag creates a hyperlink to another page or resource, with the 'href' attribute specifying the URL. -->
+        <a href="https://www.github.com/dfscx">GitHub</a>
+        <!-- Similar to the previous <a> tag, this link points to a GitHub profile. -->
+
+        <img src="Imagem.png" alt="Foto da Joana Santos Programando">
+        <!-- The <img> tag embeds an image into the page. 
+             The 'src' attribute specifies the path to the image file, and the 'alt' attribute provides alternative text for accessibility. -->
+
+        <ul>
+            <!-- The <ul> tag defines an unordered (bulleted) list. -->
+            <li>Característica 1</li>
+            <!-- The <li> tag represents a single item in the list. -->
+            <li>Característica 2</li>
+            <!-- Another list item. -->
+            <li>Característica 3</li>
+            <!-- The final item in the unordered list. -->
+        </ul>
+    </main>
+
+    <footer></footer>
+    <!-- The <footer> element is typically used to define footer content, such as copyright, links, or contact information. -->
+
 </body>
 
 </html>
-<!-- Closes the HTML document -->
+<!-- The closing tag for the root HTML element, marking the end of the document. -->
+ 
